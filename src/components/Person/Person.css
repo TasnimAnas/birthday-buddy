@@ -1,0 +1,22 @@
+.Person {
+  margin: 5px 5px 0px 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.personImage > img {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+}
+
+.NameAndAge {
+  margin: 0px 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: start;
+}
+.NameAndAge > .PersonName {
+  font-weight: bold;
+}
